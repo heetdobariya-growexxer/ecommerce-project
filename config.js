@@ -5,5 +5,9 @@ module.exports = {
     logging: {
         level: 'info',
         file: './app.log'
+    },
+    security: {
+        jwtSecret: 'secret-key',
+        tokenExpiry: '24h'
     }
 };
